@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Myanmar Farm Game</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #dbe7d3;
+    }
+    canvas {
+      background: #8acb88;
+      display: block;
+      margin: 16px auto;
+      border: 2px solid #444;
+    }
+    #message {
+      text-align: center;
+      font-family: sans-serif;
+      margin-top: 8px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <!-- Game canvas -->
+  <canvas id="gameCanvas" width="640" height="480"></canvas>
+  <div id="message">Use arrow keys to move. Press Space to plant or harvest.</div>
+  <script src="game.js"></script>
+</body>
+</html>
